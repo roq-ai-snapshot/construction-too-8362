@@ -1,0 +1,2472 @@
+[
+  {
+    "tool": [
+      {
+        "id": "caba26b3-8e1f-4cba-a542-16e0ab3ee4f5",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 93829,
+        "created_at": "2023-08-15T22:32:19.089Z",
+        "updated_at": "2023-08-16T05:51:40.730Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7cf602b7-a07e-4004-8e2a-f28f9f4a6eb0",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 53672,
+        "created_at": "2023-08-16T03:54:57.141Z",
+        "updated_at": "2023-08-15T22:05:14.790Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8d43f952-a643-4589-8365-79f270f6e1cb",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 89845,
+        "created_at": "2023-08-16T00:29:50.445Z",
+        "updated_at": "2023-08-16T08:31:03.674Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "176a571a-067e-4d84-8bc1-72e912990e32",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": true,
+        "price_per_day": 95943,
+        "created_at": "2023-08-16T03:09:39.681Z",
+        "updated_at": "2023-08-15T11:16:00.057Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30655371-741c-4554-bd4d-7f4e6edd52c6",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 84037,
+        "created_at": "2023-08-16T03:17:11.825Z",
+        "updated_at": "2023-08-16T01:34:46.819Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "11c7fe6f-2307-4508-9762-fea7d29ac2d0",
+        "start_date": "2023-08-16T00:03:17.538Z",
+        "end_date": "2023-08-15T17:40:41.664Z",
+        "total_price": 87781,
+        "created_at": "2023-08-15T23:42:16.713Z",
+        "updated_at": "2023-08-15T11:12:36.584Z",
+        "tool_id": "8d43f952-a643-4589-8365-79f270f6e1cb"
+      },
+      {
+        "id": "ee30832f-e166-4df7-b3fc-26ef86418311",
+        "start_date": "2023-08-15T11:37:35.546Z",
+        "end_date": "2023-08-15T22:56:30.612Z",
+        "total_price": 50878,
+        "created_at": "2023-08-15T18:17:26.453Z",
+        "updated_at": "2023-08-15T19:02:06.661Z",
+        "tool_id": "7cf602b7-a07e-4004-8e2a-f28f9f4a6eb0"
+      },
+      {
+        "id": "1b124823-01cd-4580-ac35-c455a93dfbb9",
+        "start_date": "2023-08-16T05:07:57.890Z",
+        "end_date": "2023-08-15T10:13:49.647Z",
+        "total_price": 62916,
+        "created_at": "2023-08-16T05:32:17.321Z",
+        "updated_at": "2023-08-16T03:23:22.528Z",
+        "tool_id": "30655371-741c-4554-bd4d-7f4e6edd52c6"
+      },
+      {
+        "id": "50bb456c-5ab0-4881-983f-3775d7d3c625",
+        "start_date": "2023-08-16T00:58:45.998Z",
+        "end_date": "2023-08-16T08:26:35.436Z",
+        "total_price": 28647,
+        "created_at": "2023-08-16T01:14:13.333Z",
+        "updated_at": "2023-08-16T05:54:46.718Z",
+        "tool_id": "caba26b3-8e1f-4cba-a542-16e0ab3ee4f5"
+      },
+      {
+        "id": "e1ad9aec-3729-440f-b882-40b838f5fe92",
+        "start_date": "2023-08-16T06:07:10.914Z",
+        "end_date": "2023-08-15T20:45:20.088Z",
+        "total_price": 39460,
+        "created_at": "2023-08-15T18:02:36.605Z",
+        "updated_at": "2023-08-16T00:13:10.043Z",
+        "tool_id": "7cf602b7-a07e-4004-8e2a-f28f9f4a6eb0"
+      }
+    ],
+    "guest": [
+      {
+        "id": "61f863a7-5fa2-442a-a1c0-55602d22515c",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-16T06:34:44.660Z",
+        "updated_at": "2023-08-15T10:09:24.548Z",
+        "rental_id": "11c7fe6f-2307-4508-9762-fea7d29ac2d0",
+        "user_id": "user_entity_pk",
+        "undefined": "50bb456c-5ab0-4881-983f-3775d7d3c625"
+      },
+      {
+        "id": "6b8edf33-9065-45af-a7a3-5dcb3c4165a9",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-16T08:21:05.546Z",
+        "updated_at": "2023-08-15T09:27:12.187Z",
+        "rental_id": "1b124823-01cd-4580-ac35-c455a93dfbb9",
+        "user_id": "user_entity_pk",
+        "undefined": "e1ad9aec-3729-440f-b882-40b838f5fe92"
+      },
+      {
+        "id": "b20e690a-cb5b-43fe-bbce-fbb6a9c8bdf5",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T12:37:18.909Z",
+        "updated_at": "2023-08-15T13:12:17.624Z",
+        "rental_id": "e1ad9aec-3729-440f-b882-40b838f5fe92",
+        "user_id": "user_entity_pk",
+        "undefined": "1b124823-01cd-4580-ac35-c455a93dfbb9"
+      },
+      {
+        "id": "05804c94-5bb3-4dbe-9bce-b70147ac4114",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-16T00:52:09.696Z",
+        "updated_at": "2023-08-16T03:40:37.335Z",
+        "rental_id": "e1ad9aec-3729-440f-b882-40b838f5fe92",
+        "user_id": "user_entity_pk",
+        "undefined": "e1ad9aec-3729-440f-b882-40b838f5fe92"
+      },
+      {
+        "id": "8487f9ae-03de-4704-9ddb-cf8aeb11a553",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-16T06:57:48.076Z",
+        "updated_at": "2023-08-15T22:29:54.877Z",
+        "rental_id": "ee30832f-e166-4df7-b3fc-26ef86418311",
+        "user_id": "user_entity_pk",
+        "undefined": "50bb456c-5ab0-4881-983f-3775d7d3c625"
+      }
+    ],
+    "admin": [
+      {
+        "id": "f67d4d2e-e3dc-459a-a5ff-5db2c09be18f",
+        "assigned_date": "2023-08-15T08:57:11.484Z",
+        "created_at": "2023-08-15T16:16:31.623Z",
+        "updated_at": "2023-08-15T09:59:56.946Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c1b4044-5dcf-4a15-b313-9d93b7048deb",
+        "assigned_date": "2023-08-16T01:25:58.857Z",
+        "created_at": "2023-08-16T06:34:44.295Z",
+        "updated_at": "2023-08-15T20:13:06.561Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4787996-54b9-4072-ad31-35b3cefe0cbf",
+        "assigned_date": "2023-08-16T00:26:39.045Z",
+        "created_at": "2023-08-16T01:41:21.920Z",
+        "updated_at": "2023-08-15T18:10:13.306Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7291d102-ba03-41f7-aa96-985198437eed",
+        "assigned_date": "2023-08-15T17:49:33.656Z",
+        "created_at": "2023-08-16T06:56:58.356Z",
+        "updated_at": "2023-08-15T09:34:17.638Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a9ce95c-3d4f-4f81-98a4-230f73103b8b",
+        "assigned_date": "2023-08-15T22:54:52.461Z",
+        "created_at": "2023-08-15T09:03:04.329Z",
+        "updated_at": "2023-08-16T03:44:33.143Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a5088423-f039-42c0-a1cf-13dfc94321e6",
+        "email": "Savanah74@yahoo.com",
+        "firstName": "Monroe",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/72.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2f5ddfe5-84a0-4e13-ac89-d61acfbc0adb",
+        "email": "Desmond23@hotmail.com",
+        "firstName": "Kory",
+        "lastName": "Rohan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "48245f4c-0bd8-4140-9ebc-000c827115d3",
+        "email": "Gussie.Blick70@gmail.com",
+        "firstName": "Murphy",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61785104",
+        "tenantId": null
+      },
+      {
+        "reference": "2c7d6236-0bb6-4176-8227-a23a528be1bc",
+        "email": "Shea_Will@yahoo.com",
+        "firstName": "Eleanora",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1041.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3486c9fd-126e-4d82-87ab-d4d331a29f48",
+        "email": "Montana.Schowalter@yahoo.com",
+        "firstName": "Arianna",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/906.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "03993de3-f3fb-4ff6-ab99-d1490a6f0a88",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 40737,
+        "created_at": "2023-08-15T11:54:07.908Z",
+        "updated_at": "2023-08-16T05:47:39.107Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4380d90c-6213-40ca-9a8c-c6e0d3666187",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": true,
+        "price_per_day": 34782,
+        "created_at": "2023-08-15T14:49:42.772Z",
+        "updated_at": "2023-08-15T21:05:31.587Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3394d403-3b91-4397-b89b-ca0876aa2b0e",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 51811,
+        "created_at": "2023-08-15T12:41:35.877Z",
+        "updated_at": "2023-08-15T22:50:16.723Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8dee6f1c-6bb2-40b7-8258-1548198c37e8",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": true,
+        "price_per_day": 90866,
+        "created_at": "2023-08-15T16:56:39.866Z",
+        "updated_at": "2023-08-16T07:10:34.747Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "da0f3d4f-67c9-487d-89c1-82f41366f79d",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 27153,
+        "created_at": "2023-08-15T13:19:07.844Z",
+        "updated_at": "2023-08-16T01:09:17.426Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "dd4d47a8-f63c-4770-ae2c-47dcfa0a6221",
+        "start_date": "2023-08-15T19:59:15.842Z",
+        "end_date": "2023-08-15T16:41:03.433Z",
+        "total_price": 13122,
+        "created_at": "2023-08-16T03:13:18.878Z",
+        "updated_at": "2023-08-16T06:50:10.895Z",
+        "tool_id": "da0f3d4f-67c9-487d-89c1-82f41366f79d"
+      },
+      {
+        "id": "91d0e176-c9a9-48e8-b56c-80680c3020a7",
+        "start_date": "2023-08-15T16:47:57.120Z",
+        "end_date": "2023-08-16T06:24:36.439Z",
+        "total_price": 50573,
+        "created_at": "2023-08-16T05:00:52.767Z",
+        "updated_at": "2023-08-15T17:57:53.322Z",
+        "tool_id": "da0f3d4f-67c9-487d-89c1-82f41366f79d"
+      },
+      {
+        "id": "f4d23e32-7471-402d-9b61-ba5945e3bddd",
+        "start_date": "2023-08-15T12:36:10.088Z",
+        "end_date": "2023-08-15T21:51:56.769Z",
+        "total_price": 95055,
+        "created_at": "2023-08-15T12:43:47.559Z",
+        "updated_at": "2023-08-15T22:53:53.315Z",
+        "tool_id": "03993de3-f3fb-4ff6-ab99-d1490a6f0a88"
+      },
+      {
+        "id": "dd39576c-85cb-4103-8596-6bcd64cba9d8",
+        "start_date": "2023-08-15T22:10:22.973Z",
+        "end_date": "2023-08-16T00:45:39.163Z",
+        "total_price": 47511,
+        "created_at": "2023-08-15T15:35:32.119Z",
+        "updated_at": "2023-08-15T19:46:47.168Z",
+        "tool_id": "03993de3-f3fb-4ff6-ab99-d1490a6f0a88"
+      },
+      {
+        "id": "3b44a44f-e2b6-405c-bafd-49a99fd5dfed",
+        "start_date": "2023-08-16T06:29:33.122Z",
+        "end_date": "2023-08-16T04:27:20.067Z",
+        "total_price": 90792,
+        "created_at": "2023-08-16T02:41:11.907Z",
+        "updated_at": "2023-08-16T08:22:25.108Z",
+        "tool_id": "da0f3d4f-67c9-487d-89c1-82f41366f79d"
+      }
+    ],
+    "guest": [
+      {
+        "id": "cb2142ac-6ea9-4f5b-b6d5-8838a8c13a7c",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-16T04:47:34.976Z",
+        "updated_at": "2023-08-15T19:26:57.271Z",
+        "rental_id": "3b44a44f-e2b6-405c-bafd-49a99fd5dfed",
+        "user_id": "user_entity_pk",
+        "undefined": "91d0e176-c9a9-48e8-b56c-80680c3020a7"
+      },
+      {
+        "id": "c241b095-bd31-494d-b49e-2f76ab324f56",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T09:31:35.745Z",
+        "updated_at": "2023-08-16T06:01:21.828Z",
+        "rental_id": "91d0e176-c9a9-48e8-b56c-80680c3020a7",
+        "user_id": "user_entity_pk",
+        "undefined": "3b44a44f-e2b6-405c-bafd-49a99fd5dfed"
+      },
+      {
+        "id": "17864e1d-d0bb-4479-9772-e746bc46b2a2",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T13:52:12.587Z",
+        "updated_at": "2023-08-15T10:35:57.544Z",
+        "rental_id": "dd39576c-85cb-4103-8596-6bcd64cba9d8",
+        "user_id": "user_entity_pk",
+        "undefined": "dd4d47a8-f63c-4770-ae2c-47dcfa0a6221"
+      },
+      {
+        "id": "d1a4f54b-a12d-46b0-9a27-00cbb2b3d7b8",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T17:08:20.529Z",
+        "updated_at": "2023-08-15T11:58:43.116Z",
+        "rental_id": "dd4d47a8-f63c-4770-ae2c-47dcfa0a6221",
+        "user_id": "user_entity_pk",
+        "undefined": "f4d23e32-7471-402d-9b61-ba5945e3bddd"
+      },
+      {
+        "id": "63e8c776-76f0-4328-9fb4-5091fdbfe621",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-15T10:24:23.881Z",
+        "updated_at": "2023-08-16T03:37:23.322Z",
+        "rental_id": "f4d23e32-7471-402d-9b61-ba5945e3bddd",
+        "user_id": "user_entity_pk",
+        "undefined": "f4d23e32-7471-402d-9b61-ba5945e3bddd"
+      }
+    ],
+    "admin": [
+      {
+        "id": "258449e1-d9ba-4302-955d-5cc8e9a6b368",
+        "assigned_date": "2023-08-16T05:56:37.083Z",
+        "created_at": "2023-08-15T17:39:35.595Z",
+        "updated_at": "2023-08-15T13:00:00.239Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "114faf66-7011-4c2f-babf-7cb192a84624",
+        "assigned_date": "2023-08-15T15:12:24.493Z",
+        "created_at": "2023-08-15T11:47:37.896Z",
+        "updated_at": "2023-08-15T14:50:09.462Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8dcb89d2-6d76-4328-99ba-cdbf673e7e5f",
+        "assigned_date": "2023-08-15T09:04:02.994Z",
+        "created_at": "2023-08-16T01:25:03.730Z",
+        "updated_at": "2023-08-16T00:47:07.261Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ff29d1f-724b-4894-b877-e043ce1a4ef9",
+        "assigned_date": "2023-08-15T18:49:20.879Z",
+        "created_at": "2023-08-15T15:02:54.429Z",
+        "updated_at": "2023-08-15T13:41:29.034Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f85e0baa-be5b-42b8-99ef-75df3aa8619f",
+        "assigned_date": "2023-08-15T14:20:19.892Z",
+        "created_at": "2023-08-15T17:31:25.630Z",
+        "updated_at": "2023-08-16T05:21:59.808Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "89f12399-e016-4697-84b7-b8d1999b9f22",
+        "email": "Freida_Kris92@hotmail.com",
+        "firstName": "Nicholas",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/494.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "aeb84919-c4f2-475e-a105-df57e0eb889c",
+        "email": "Adelle57@yahoo.com",
+        "firstName": "Emie",
+        "lastName": "Jenkins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67088239",
+        "tenantId": null
+      },
+      {
+        "reference": "6b7423d1-a1bb-4247-84d4-28e55e4de689",
+        "email": "Anissa21@yahoo.com",
+        "firstName": "Marlin",
+        "lastName": "Welch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95510097",
+        "tenantId": null
+      },
+      {
+        "reference": "b4a2a00e-4755-4321-9546-7cdabef3026c",
+        "email": "Lizeth.Wunsch36@yahoo.com",
+        "firstName": "Chandler",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93687155",
+        "tenantId": null
+      },
+      {
+        "reference": "3353491e-f4ef-4fe2-b221-5db425b5dac6",
+        "email": "Vallie.Veum-Casper23@hotmail.com",
+        "firstName": "Cristian",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/134.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "f38bd70e-1892-4abb-8b38-8faf921463fd",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 93709,
+        "created_at": "2023-08-16T02:57:42.987Z",
+        "updated_at": "2023-08-15T22:38:22.563Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e35a411-e44a-42ee-8281-788632657e14",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 18356,
+        "created_at": "2023-08-16T00:19:35.734Z",
+        "updated_at": "2023-08-15T20:02:44.178Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "bf5b18ce-5c46-49b1-a1b9-bea004a54fac",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 95999,
+        "created_at": "2023-08-15T09:34:03.488Z",
+        "updated_at": "2023-08-15T22:56:28.297Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f6ebb248-f10c-4122-85dd-df9f9c8767bb",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 31541,
+        "created_at": "2023-08-15T19:55:05.308Z",
+        "updated_at": "2023-08-15T14:42:28.086Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c8d2a13-c28e-4131-b3dd-b02eafee87a0",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 9471,
+        "created_at": "2023-08-15T17:44:25.500Z",
+        "updated_at": "2023-08-16T02:21:54.623Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b64daf64-067c-43ce-9a1d-e018450735a5",
+        "start_date": "2023-08-16T02:17:15.663Z",
+        "end_date": "2023-08-16T03:29:08.258Z",
+        "total_price": 23947,
+        "created_at": "2023-08-15T22:51:08.914Z",
+        "updated_at": "2023-08-15T18:03:17.539Z",
+        "tool_id": "9e35a411-e44a-42ee-8281-788632657e14"
+      },
+      {
+        "id": "2aaea341-aa23-4dbd-be0c-568beb63ce01",
+        "start_date": "2023-08-15T17:33:41.143Z",
+        "end_date": "2023-08-16T08:18:31.121Z",
+        "total_price": 55519,
+        "created_at": "2023-08-15T14:52:06.829Z",
+        "updated_at": "2023-08-15T13:07:36.378Z",
+        "tool_id": "f6ebb248-f10c-4122-85dd-df9f9c8767bb"
+      },
+      {
+        "id": "994367e0-3a0a-4f61-8c9b-61d9b6770aa3",
+        "start_date": "2023-08-15T23:30:49.969Z",
+        "end_date": "2023-08-16T03:46:00.803Z",
+        "total_price": 55507,
+        "created_at": "2023-08-15T14:00:47.649Z",
+        "updated_at": "2023-08-16T08:35:46.918Z",
+        "tool_id": "7c8d2a13-c28e-4131-b3dd-b02eafee87a0"
+      },
+      {
+        "id": "41bc2add-27f4-4fa6-8457-5b414ee2ef26",
+        "start_date": "2023-08-15T17:25:57.234Z",
+        "end_date": "2023-08-16T00:37:43.577Z",
+        "total_price": 53287,
+        "created_at": "2023-08-15T20:22:09.397Z",
+        "updated_at": "2023-08-16T00:21:45.414Z",
+        "tool_id": "f38bd70e-1892-4abb-8b38-8faf921463fd"
+      },
+      {
+        "id": "a841df3a-9a75-4243-9680-a4dd968a5ec2",
+        "start_date": "2023-08-15T22:46:45.824Z",
+        "end_date": "2023-08-16T06:17:16.803Z",
+        "total_price": 35715,
+        "created_at": "2023-08-16T07:12:48.053Z",
+        "updated_at": "2023-08-16T08:36:25.345Z",
+        "tool_id": "9e35a411-e44a-42ee-8281-788632657e14"
+      }
+    ],
+    "guest": [
+      {
+        "id": "e627c4ff-9eb0-48ec-ac67-0d1c77e205fb",
+        "phone_number": "555-111-2222",
+        "address": "789 Elm Street",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-15T12:00:47.232Z",
+        "updated_at": "2023-08-16T03:09:20.414Z",
+        "rental_id": "41bc2add-27f4-4fa6-8457-5b414ee2ef26",
+        "user_id": "user_entity_pk",
+        "undefined": "b64daf64-067c-43ce-9a1d-e018450735a5"
+      },
+      {
+        "id": "13523742-447f-4a21-ac33-0a6fb66bb6fd",
+        "phone_number": "888-333-4444",
+        "address": "456 Oak Avenue",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-16T05:02:38.683Z",
+        "updated_at": "2023-08-15T22:32:11.438Z",
+        "rental_id": "41bc2add-27f4-4fa6-8457-5b414ee2ef26",
+        "user_id": "user_entity_pk",
+        "undefined": "41bc2add-27f4-4fa6-8457-5b414ee2ef26"
+      },
+      {
+        "id": "f294f49e-f82d-4415-b9fc-f0cc73dbb708",
+        "phone_number": "123-444-5555",
+        "address": "123 Pine Lane",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T22:16:03.993Z",
+        "updated_at": "2023-08-15T12:36:24.306Z",
+        "rental_id": "b64daf64-067c-43ce-9a1d-e018450735a5",
+        "user_id": "user_entity_pk",
+        "undefined": "a841df3a-9a75-4243-9680-a4dd968a5ec2"
+      },
+      {
+        "id": "f287f5dc-3f46-43ed-a559-21552b431826",
+        "phone_number": "999-666-7777",
+        "address": "654 Maple Road",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T13:36:58.407Z",
+        "updated_at": "2023-08-15T22:50:23.937Z",
+        "rental_id": "2aaea341-aa23-4dbd-be0c-568beb63ce01",
+        "user_id": "user_entity_pk",
+        "undefined": "a841df3a-9a75-4243-9680-a4dd968a5ec2"
+      },
+      {
+        "id": "e58d0b01-2ccb-4e8a-996a-f9875b4012ac",
+        "phone_number": "777-888-9999",
+        "address": "321 Cedar Drive",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-16T00:00:48.633Z",
+        "updated_at": "2023-08-15T17:45:40.378Z",
+        "rental_id": "b64daf64-067c-43ce-9a1d-e018450735a5",
+        "user_id": "user_entity_pk",
+        "undefined": "b64daf64-067c-43ce-9a1d-e018450735a5"
+      }
+    ],
+    "admin": [
+      {
+        "id": "0b5c0806-127e-4ab7-b188-27a1494bd192",
+        "assigned_date": "2023-08-15T23:00:07.949Z",
+        "created_at": "2023-08-15T12:30:59.503Z",
+        "updated_at": "2023-08-16T03:35:37.535Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "960aee29-65ae-4a91-96c2-7186e3f1d927",
+        "assigned_date": "2023-08-15T12:55:27.252Z",
+        "created_at": "2023-08-15T23:21:01.989Z",
+        "updated_at": "2023-08-16T03:48:32.480Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e95128d6-e828-4e23-a71f-c93bb6bbf975",
+        "assigned_date": "2023-08-15T14:53:19.572Z",
+        "created_at": "2023-08-15T13:13:54.823Z",
+        "updated_at": "2023-08-16T07:16:48.367Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c9993ed-7ff3-4b14-b731-124453093f92",
+        "assigned_date": "2023-08-15T12:52:39.028Z",
+        "created_at": "2023-08-15T14:19:57.885Z",
+        "updated_at": "2023-08-15T13:23:46.683Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17213b84-4903-436b-915e-194bc3159d3c",
+        "assigned_date": "2023-08-16T03:09:33.999Z",
+        "created_at": "2023-08-16T03:13:58.428Z",
+        "updated_at": "2023-08-15T17:54:21.688Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8a273b41-b16a-4402-9339-b58973ea3baa",
+        "email": "Dina.Nolan12@hotmail.com",
+        "firstName": "Rosalind",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5508902",
+        "tenantId": null
+      },
+      {
+        "reference": "d2ce3480-360a-412e-84fc-d3a2eef069f3",
+        "email": "Eudora14@hotmail.com",
+        "firstName": "Emil",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38453262",
+        "tenantId": null
+      },
+      {
+        "reference": "355b7db0-e0a0-45d8-b756-d6c0f01047e8",
+        "email": "Nora67@hotmail.com",
+        "firstName": "Della",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2924141",
+        "tenantId": null
+      },
+      {
+        "reference": "c85470f3-c4a5-4ba3-8c2f-83698a91a9f9",
+        "email": "Louvenia_Jacobi20@yahoo.com",
+        "firstName": "Stephan",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4766226",
+        "tenantId": null
+      },
+      {
+        "reference": "9c910b30-b535-467c-8b3d-6108acd379d6",
+        "email": "Jonathan_Dare@yahoo.com",
+        "firstName": "Carlotta",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96696318",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "f8c3106f-52ea-4b22-a596-c9e51e5abc26",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 12180,
+        "created_at": "2023-08-16T08:04:03.600Z",
+        "updated_at": "2023-08-15T12:57:29.298Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b917ec83-9aa0-42db-bdbf-c08bbc345bac",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": true,
+        "price_per_day": 5707,
+        "created_at": "2023-08-15T14:10:30.221Z",
+        "updated_at": "2023-08-15T21:03:28.411Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96d5e570-87da-4a5d-85a7-ebf9e9a42e17",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": false,
+        "price_per_day": 75752,
+        "created_at": "2023-08-16T07:08:35.026Z",
+        "updated_at": "2023-08-15T23:11:45.547Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "62143293-c50a-4d6a-a5a9-147bb8f2d17d",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 14056,
+        "created_at": "2023-08-16T07:22:18.729Z",
+        "updated_at": "2023-08-15T19:26:50.643Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "01928165-70da-4d1a-8924-b0b2f68431d4",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 78984,
+        "created_at": "2023-08-15T09:55:28.751Z",
+        "updated_at": "2023-08-15T16:28:50.477Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "3025dcb9-36cd-405c-9f74-a3f4e49260a2",
+        "start_date": "2023-08-16T00:51:45.235Z",
+        "end_date": "2023-08-15T20:28:50.644Z",
+        "total_price": 27916,
+        "created_at": "2023-08-16T01:24:23.551Z",
+        "updated_at": "2023-08-15T15:07:22.655Z",
+        "tool_id": "01928165-70da-4d1a-8924-b0b2f68431d4"
+      },
+      {
+        "id": "f76bb552-846a-4e70-84b4-d96ee6469418",
+        "start_date": "2023-08-15T15:50:14.867Z",
+        "end_date": "2023-08-15T18:28:52.159Z",
+        "total_price": 65834,
+        "created_at": "2023-08-15T13:44:02.119Z",
+        "updated_at": "2023-08-16T00:08:51.569Z",
+        "tool_id": "62143293-c50a-4d6a-a5a9-147bb8f2d17d"
+      },
+      {
+        "id": "48e00d9c-0f09-4c8d-b7f5-3483ad458a2b",
+        "start_date": "2023-08-15T18:03:47.041Z",
+        "end_date": "2023-08-16T07:03:03.810Z",
+        "total_price": 42282,
+        "created_at": "2023-08-15T19:18:10.404Z",
+        "updated_at": "2023-08-15T10:13:08.373Z",
+        "tool_id": "01928165-70da-4d1a-8924-b0b2f68431d4"
+      },
+      {
+        "id": "7e5306e0-5720-41dc-b6c5-77fedd370d30",
+        "start_date": "2023-08-15T18:57:51.113Z",
+        "end_date": "2023-08-15T23:41:37.649Z",
+        "total_price": 95865,
+        "created_at": "2023-08-15T19:39:08.571Z",
+        "updated_at": "2023-08-15T14:48:28.484Z",
+        "tool_id": "96d5e570-87da-4a5d-85a7-ebf9e9a42e17"
+      },
+      {
+        "id": "7bc2a482-5cbe-4932-8210-343a87867ad0",
+        "start_date": "2023-08-16T04:38:16.386Z",
+        "end_date": "2023-08-15T13:45:23.178Z",
+        "total_price": 80059,
+        "created_at": "2023-08-16T06:52:56.533Z",
+        "updated_at": "2023-08-15T17:23:51.498Z",
+        "tool_id": "b917ec83-9aa0-42db-bdbf-c08bbc345bac"
+      }
+    ],
+    "guest": [
+      {
+        "id": "c12f097e-69be-453b-8aba-978323153963",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-15T23:12:48.706Z",
+        "updated_at": "2023-08-15T14:38:37.305Z",
+        "rental_id": "48e00d9c-0f09-4c8d-b7f5-3483ad458a2b",
+        "user_id": "user_entity_pk",
+        "undefined": "f76bb552-846a-4e70-84b4-d96ee6469418"
+      },
+      {
+        "id": "0ac76675-6438-44f2-b8e7-0ce03ea9d8e6",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T09:45:48.410Z",
+        "updated_at": "2023-08-15T13:57:52.522Z",
+        "rental_id": "f76bb552-846a-4e70-84b4-d96ee6469418",
+        "user_id": "user_entity_pk",
+        "undefined": "7e5306e0-5720-41dc-b6c5-77fedd370d30"
+      },
+      {
+        "id": "22cab9c9-de8e-4994-b1c8-eadbe7925e9b",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T17:00:24.070Z",
+        "updated_at": "2023-08-15T11:16:17.311Z",
+        "rental_id": "7bc2a482-5cbe-4932-8210-343a87867ad0",
+        "user_id": "user_entity_pk",
+        "undefined": "f76bb552-846a-4e70-84b4-d96ee6469418"
+      },
+      {
+        "id": "1d241953-ec7a-4e2f-be65-89b7c9029c1e",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-16T04:49:41.781Z",
+        "updated_at": "2023-08-15T14:10:51.809Z",
+        "rental_id": "48e00d9c-0f09-4c8d-b7f5-3483ad458a2b",
+        "user_id": "user_entity_pk",
+        "undefined": "3025dcb9-36cd-405c-9f74-a3f4e49260a2"
+      },
+      {
+        "id": "af3659b4-6565-4bc3-b54a-4c1553bccb0c",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-16T02:47:20.364Z",
+        "updated_at": "2023-08-16T04:27:44.718Z",
+        "rental_id": "3025dcb9-36cd-405c-9f74-a3f4e49260a2",
+        "user_id": "user_entity_pk",
+        "undefined": "7e5306e0-5720-41dc-b6c5-77fedd370d30"
+      }
+    ],
+    "admin": [
+      {
+        "id": "8c794dd3-c035-48c4-8d79-11177051a097",
+        "assigned_date": "2023-08-15T17:30:33.219Z",
+        "created_at": "2023-08-15T21:47:04.212Z",
+        "updated_at": "2023-08-15T16:00:03.531Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "199db58e-cd36-4453-aed8-e638f24d383c",
+        "assigned_date": "2023-08-15T17:10:23.764Z",
+        "created_at": "2023-08-15T21:20:38.346Z",
+        "updated_at": "2023-08-16T08:12:23.573Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bc27392-809d-4c1a-9a3a-2abb097682b7",
+        "assigned_date": "2023-08-15T22:31:37.606Z",
+        "created_at": "2023-08-16T00:54:42.105Z",
+        "updated_at": "2023-08-16T05:23:59.695Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69e67ef4-d5dc-4ef7-9378-6fb2519c5669",
+        "assigned_date": "2023-08-15T12:56:07.297Z",
+        "created_at": "2023-08-15T14:37:49.852Z",
+        "updated_at": "2023-08-15T17:02:19.880Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1208f52d-2650-46d3-88d9-906ee609610a",
+        "assigned_date": "2023-08-15T22:40:40.274Z",
+        "created_at": "2023-08-16T07:19:03.033Z",
+        "updated_at": "2023-08-15T13:32:06.763Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e563a8bd-c7fb-47c8-9297-ca79d5d6cd51",
+        "email": "Emmitt_Hoeger@yahoo.com",
+        "firstName": "Selmer",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/331.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7ad9ed3-872d-4238-8bef-a21fa1f3bb00",
+        "email": "Bert_Grady32@gmail.com",
+        "firstName": "Hal",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/189.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e6d9fa70-7f96-41a0-b242-31b2c39e50fa",
+        "email": "Zaria_Johns@yahoo.com",
+        "firstName": "Floyd",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/999.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "deec6a5b-66ab-4ce6-be56-cdc4da8b4b21",
+        "email": "Dessie_Toy@hotmail.com",
+        "firstName": "Gabriella",
+        "lastName": "Becker",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93330257",
+        "tenantId": null
+      },
+      {
+        "reference": "73551749-7612-4842-8592-5dce110db867",
+        "email": "Jerel8@hotmail.com",
+        "firstName": "Rylan",
+        "lastName": "Klocko",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28618437",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "b65b98ce-9c62-4968-93b6-8ab4b35dad4d",
+        "name": "Tool 1",
+        "description": "A powerful data analysis tool",
+        "availability": false,
+        "price_per_day": 20400,
+        "created_at": "2023-08-15T12:24:47.150Z",
+        "updated_at": "2023-08-15T16:04:12.449Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "99713aa3-c83b-4a37-adde-2f243b8d3594",
+        "name": "Tool 2",
+        "description": "An intuitive project management tool",
+        "availability": true,
+        "price_per_day": 62290,
+        "created_at": "2023-08-16T05:47:00.924Z",
+        "updated_at": "2023-08-16T06:48:10.202Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1c6663a8-56cb-437f-9b74-70377d48a4b4",
+        "name": "Tool 3",
+        "description": "A reliable communication tool",
+        "availability": true,
+        "price_per_day": 57756,
+        "created_at": "2023-08-15T12:13:32.866Z",
+        "updated_at": "2023-08-16T02:11:03.312Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30c4fde2-5984-4f79-91dc-8e662bc95eca",
+        "name": "Tool 4",
+        "description": "An efficient task tracking tool",
+        "availability": true,
+        "price_per_day": 79370,
+        "created_at": "2023-08-15T21:48:15.056Z",
+        "updated_at": "2023-08-16T01:57:03.748Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3bea898c-4978-421a-b34c-561c766101fe",
+        "name": "Tool 5",
+        "description": "A user-friendly design tool",
+        "availability": false,
+        "price_per_day": 45939,
+        "created_at": "2023-08-15T17:10:24.633Z",
+        "updated_at": "2023-08-15T14:20:27.928Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "35c5fad2-04d9-44b2-85f9-5120ad2c32a2",
+        "start_date": "2023-08-15T19:49:11.827Z",
+        "end_date": "2023-08-15T20:15:16.606Z",
+        "total_price": 93151,
+        "created_at": "2023-08-15T18:14:59.214Z",
+        "updated_at": "2023-08-16T06:24:25.414Z",
+        "tool_id": "1c6663a8-56cb-437f-9b74-70377d48a4b4"
+      },
+      {
+        "id": "d8cf1149-8b96-4ca6-a517-0572b28bbf40",
+        "start_date": "2023-08-15T18:13:20.045Z",
+        "end_date": "2023-08-15T17:28:25.021Z",
+        "total_price": 68148,
+        "created_at": "2023-08-15T10:34:47.725Z",
+        "updated_at": "2023-08-16T06:06:35.260Z",
+        "tool_id": "3bea898c-4978-421a-b34c-561c766101fe"
+      },
+      {
+        "id": "6c2612f4-98ac-4158-95e1-7cb7a107c31c",
+        "start_date": "2023-08-15T13:01:29.815Z",
+        "end_date": "2023-08-15T12:26:11.980Z",
+        "total_price": 59852,
+        "created_at": "2023-08-16T00:02:48.096Z",
+        "updated_at": "2023-08-16T04:06:20.471Z",
+        "tool_id": "3bea898c-4978-421a-b34c-561c766101fe"
+      },
+      {
+        "id": "57426ff0-b852-48e2-9554-74db125bbe57",
+        "start_date": "2023-08-15T08:45:30.630Z",
+        "end_date": "2023-08-16T01:28:28.511Z",
+        "total_price": 14944,
+        "created_at": "2023-08-16T02:51:35.674Z",
+        "updated_at": "2023-08-15T21:59:47.571Z",
+        "tool_id": "30c4fde2-5984-4f79-91dc-8e662bc95eca"
+      },
+      {
+        "id": "84ba43e6-40d5-49cd-b174-f0f14d78bcef",
+        "start_date": "2023-08-16T04:16:59.983Z",
+        "end_date": "2023-08-15T09:24:45.242Z",
+        "total_price": 3682,
+        "created_at": "2023-08-16T03:28:32.349Z",
+        "updated_at": "2023-08-15T12:52:08.779Z",
+        "tool_id": "99713aa3-c83b-4a37-adde-2f243b8d3594"
+      }
+    ],
+    "guest": [
+      {
+        "id": "73128e6c-f85a-43b7-8a0d-e76ea9428d58",
+        "phone_number": "555-111-2222",
+        "address": "9876 Oak St",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-16T02:36:24.153Z",
+        "updated_at": "2023-08-15T14:14:48.361Z",
+        "rental_id": "d8cf1149-8b96-4ca6-a517-0572b28bbf40",
+        "user_id": "user_entity_pk",
+        "undefined": "84ba43e6-40d5-49cd-b174-f0f14d78bcef"
+      },
+      {
+        "id": "4e23f821-93a1-40e4-ac5f-001135c308a0",
+        "phone_number": "888-333-4444",
+        "address": "5432 Elm St",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T14:22:05.288Z",
+        "updated_at": "2023-08-15T23:09:17.147Z",
+        "rental_id": "57426ff0-b852-48e2-9554-74db125bbe57",
+        "user_id": "user_entity_pk",
+        "undefined": "84ba43e6-40d5-49cd-b174-f0f14d78bcef"
+      },
+      {
+        "id": "17b3a789-fd0a-45cb-8e9d-a7f01f2930a7",
+        "phone_number": "999-555-6666",
+        "address": "1234 Pine St",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-16T00:12:58.441Z",
+        "updated_at": "2023-08-16T02:01:50.615Z",
+        "rental_id": "57426ff0-b852-48e2-9554-74db125bbe57",
+        "user_id": "user_entity_pk",
+        "undefined": "6c2612f4-98ac-4158-95e1-7cb7a107c31c"
+      },
+      {
+        "id": "c806a85e-f6ab-4080-972c-81cfb0a88d4e",
+        "phone_number": "777-444-5555",
+        "address": "6789 Maple St",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T13:43:23.159Z",
+        "updated_at": "2023-08-16T03:29:25.153Z",
+        "rental_id": "35c5fad2-04d9-44b2-85f9-5120ad2c32a2",
+        "user_id": "user_entity_pk",
+        "undefined": "35c5fad2-04d9-44b2-85f9-5120ad2c32a2"
+      },
+      {
+        "id": "8253ff88-cf4a-45ee-9559-324d8dc55902",
+        "phone_number": "222-888-9999",
+        "address": "1357 Birch St",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-16T01:58:26.602Z",
+        "updated_at": "2023-08-16T04:07:31.255Z",
+        "rental_id": "57426ff0-b852-48e2-9554-74db125bbe57",
+        "user_id": "user_entity_pk",
+        "undefined": "84ba43e6-40d5-49cd-b174-f0f14d78bcef"
+      }
+    ],
+    "admin": [
+      {
+        "id": "95914c56-7aa2-4d9d-abb9-5a1a89c460a9",
+        "assigned_date": "2023-08-16T02:37:46.923Z",
+        "created_at": "2023-08-16T07:06:06.393Z",
+        "updated_at": "2023-08-16T07:54:25.937Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "856433ca-4cd9-4abf-a1fe-10cef596b472",
+        "assigned_date": "2023-08-15T08:56:34.469Z",
+        "created_at": "2023-08-15T17:18:07.805Z",
+        "updated_at": "2023-08-15T21:52:10.100Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "725e2232-fa04-4bba-89e7-c360262d97a5",
+        "assigned_date": "2023-08-15T17:46:36.914Z",
+        "created_at": "2023-08-16T04:04:39.781Z",
+        "updated_at": "2023-08-16T06:09:35.754Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3980771c-142c-400e-9c63-db8c5fd079de",
+        "assigned_date": "2023-08-16T04:24:50.294Z",
+        "created_at": "2023-08-16T05:23:05.229Z",
+        "updated_at": "2023-08-15T21:17:48.518Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d4d463a1-23a7-4997-9f73-90792a3ec8e1",
+        "assigned_date": "2023-08-16T02:49:04.217Z",
+        "created_at": "2023-08-15T10:23:00.727Z",
+        "updated_at": "2023-08-15T09:06:43.710Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0452aa71-2fff-4496-8650-8329fe97a246",
+        "email": "Demarcus_Schmeler@yahoo.com",
+        "firstName": "Josie",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64091452",
+        "tenantId": null
+      },
+      {
+        "reference": "c3b9a683-2d53-4fa4-9796-b32043e64bf3",
+        "email": "Alva55@hotmail.com",
+        "firstName": "Paige",
+        "lastName": "Ullrich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce52bd50-5fcf-4d47-8239-e0d10dd2940e",
+        "email": "Christy.Keebler@yahoo.com",
+        "firstName": "Monty",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/37882786",
+        "tenantId": null
+      },
+      {
+        "reference": "fa83ec06-2eb1-46b6-95d7-aeb355fc221f",
+        "email": "Nicklaus_Leannon@yahoo.com",
+        "firstName": "Treva",
+        "lastName": "Steuber",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56743752",
+        "tenantId": null
+      },
+      {
+        "reference": "55dbdde0-4d3f-48c6-84af-9b16b2f85253",
+        "email": "Toy85@gmail.com",
+        "firstName": "General",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36362636",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "118829b8-6259-4383-8050-45c0e76dd61a",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": true,
+        "price_per_day": 10122,
+        "created_at": "2023-08-15T15:20:29.868Z",
+        "updated_at": "2023-08-16T03:17:25.197Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "136f97c9-fbc3-4784-a0f2-6d271100fd53",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 52582,
+        "created_at": "2023-08-16T02:45:30.393Z",
+        "updated_at": "2023-08-15T21:47:47.694Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46d01e6e-2bcc-4997-86f7-50f8c7ff8141",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 9138,
+        "created_at": "2023-08-15T10:48:51.621Z",
+        "updated_at": "2023-08-16T00:43:17.322Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0fcf6468-1088-498f-b66f-1f4a2e58a809",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": true,
+        "price_per_day": 52535,
+        "created_at": "2023-08-15T23:52:24.503Z",
+        "updated_at": "2023-08-15T13:08:50.004Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "794bbacb-083e-44bf-8839-2ae49b92fd7e",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": true,
+        "price_per_day": 50304,
+        "created_at": "2023-08-16T08:23:33.868Z",
+        "updated_at": "2023-08-15T17:09:10.790Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "7356819f-9d91-4d35-ade9-48002a72c563",
+        "start_date": "2023-08-16T00:00:28.362Z",
+        "end_date": "2023-08-16T07:08:07.294Z",
+        "total_price": 1511,
+        "created_at": "2023-08-16T04:41:33.724Z",
+        "updated_at": "2023-08-15T13:32:54.254Z",
+        "tool_id": "118829b8-6259-4383-8050-45c0e76dd61a"
+      },
+      {
+        "id": "665747be-04cb-4a2f-b576-f77debb3c892",
+        "start_date": "2023-08-15T08:44:58.066Z",
+        "end_date": "2023-08-16T00:10:29.937Z",
+        "total_price": 56190,
+        "created_at": "2023-08-15T15:30:42.561Z",
+        "updated_at": "2023-08-15T09:21:09.998Z",
+        "tool_id": "136f97c9-fbc3-4784-a0f2-6d271100fd53"
+      },
+      {
+        "id": "ee608bd6-d0ac-4cb0-9eb7-396d9ba7499d",
+        "start_date": "2023-08-16T00:00:37.826Z",
+        "end_date": "2023-08-15T15:35:39.817Z",
+        "total_price": 53152,
+        "created_at": "2023-08-16T04:31:46.032Z",
+        "updated_at": "2023-08-15T17:16:18.596Z",
+        "tool_id": "136f97c9-fbc3-4784-a0f2-6d271100fd53"
+      },
+      {
+        "id": "9e6d5f3b-d2c2-47d9-957f-c52ab5821d64",
+        "start_date": "2023-08-16T01:25:06.983Z",
+        "end_date": "2023-08-15T10:20:42.971Z",
+        "total_price": 73089,
+        "created_at": "2023-08-16T02:41:37.664Z",
+        "updated_at": "2023-08-15T18:09:11.157Z",
+        "tool_id": "118829b8-6259-4383-8050-45c0e76dd61a"
+      },
+      {
+        "id": "9ee1d47f-ff04-4ed3-842d-29dcef8c9c81",
+        "start_date": "2023-08-15T23:59:32.383Z",
+        "end_date": "2023-08-15T16:10:15.740Z",
+        "total_price": 18451,
+        "created_at": "2023-08-15T09:06:45.815Z",
+        "updated_at": "2023-08-16T01:12:36.203Z",
+        "tool_id": "46d01e6e-2bcc-4997-86f7-50f8c7ff8141"
+      }
+    ],
+    "guest": [
+      {
+        "id": "0f23b60b-deb3-4d60-a006-b29c67182b79",
+        "phone_number": "555-123-4567",
+        "address": "123 Main Street",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-16T05:42:20.818Z",
+        "updated_at": "2023-08-15T23:56:08.972Z",
+        "rental_id": "9ee1d47f-ff04-4ed3-842d-29dcef8c9c81",
+        "user_id": "user_entity_pk",
+        "undefined": "ee608bd6-d0ac-4cb0-9eb7-396d9ba7499d"
+      },
+      {
+        "id": "1ebd538d-e6e2-464d-9efa-915314ad5155",
+        "phone_number": "888-999-0000",
+        "address": "456 Elm Avenue",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T14:59:25.985Z",
+        "updated_at": "2023-08-16T06:13:10.596Z",
+        "rental_id": "665747be-04cb-4a2f-b576-f77debb3c892",
+        "user_id": "user_entity_pk",
+        "undefined": "ee608bd6-d0ac-4cb0-9eb7-396d9ba7499d"
+      },
+      {
+        "id": "768363e1-4260-42c8-81aa-de59c9e738fd",
+        "phone_number": "111-222-3333",
+        "address": "789 Oak Lane",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T13:00:27.558Z",
+        "updated_at": "2023-08-15T13:41:41.238Z",
+        "rental_id": "7356819f-9d91-4d35-ade9-48002a72c563",
+        "user_id": "user_entity_pk",
+        "undefined": "7356819f-9d91-4d35-ade9-48002a72c563"
+      },
+      {
+        "id": "29c6c930-8d47-4a41-9f74-52dc2930750b",
+        "phone_number": "123-456-7890",
+        "address": "321 Pine Road",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-16T05:02:52.668Z",
+        "updated_at": "2023-08-15T18:41:21.104Z",
+        "rental_id": "665747be-04cb-4a2f-b576-f77debb3c892",
+        "user_id": "user_entity_pk",
+        "undefined": "665747be-04cb-4a2f-b576-f77debb3c892"
+      },
+      {
+        "id": "ef7c9685-461d-4660-8dbd-f2c9fc1d6059",
+        "phone_number": "987-654-3210",
+        "address": "654 Maple Drive",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-15T18:50:51.802Z",
+        "updated_at": "2023-08-16T05:46:57.940Z",
+        "rental_id": "ee608bd6-d0ac-4cb0-9eb7-396d9ba7499d",
+        "user_id": "user_entity_pk",
+        "undefined": "9ee1d47f-ff04-4ed3-842d-29dcef8c9c81"
+      }
+    ],
+    "admin": [
+      {
+        "id": "254cd998-9f8d-478e-af19-785c527cd58f",
+        "assigned_date": "2023-08-15T21:59:06.680Z",
+        "created_at": "2023-08-16T06:39:41.484Z",
+        "updated_at": "2023-08-15T22:02:39.205Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a11afc71-c235-4063-926e-6ba82f186e97",
+        "assigned_date": "2023-08-15T09:00:39.042Z",
+        "created_at": "2023-08-16T02:06:08.723Z",
+        "updated_at": "2023-08-16T02:57:08.789Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae8398a-778c-47d3-ad34-f928a151f57e",
+        "assigned_date": "2023-08-15T17:58:22.600Z",
+        "created_at": "2023-08-15T08:45:00.526Z",
+        "updated_at": "2023-08-15T17:40:23.102Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0253b00b-3911-4531-b486-fef749d5a92e",
+        "assigned_date": "2023-08-15T12:40:41.400Z",
+        "created_at": "2023-08-15T23:07:27.422Z",
+        "updated_at": "2023-08-16T00:15:52.784Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4cff8c8-750f-4fa4-ba83-ad42eccb5b54",
+        "assigned_date": "2023-08-15T21:06:22.342Z",
+        "created_at": "2023-08-15T21:47:29.130Z",
+        "updated_at": "2023-08-15T15:12:22.520Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16302be3-1a1e-47ef-bc6a-f8eb5bf7c058",
+        "email": "Kaycee.Klein@hotmail.com",
+        "firstName": "Quinn",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/672.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2af84560-bf2b-48f0-9032-b7fb114a7130",
+        "email": "Waino_Koelpin@gmail.com",
+        "firstName": "Colt",
+        "lastName": "Metz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/47994791",
+        "tenantId": null
+      },
+      {
+        "reference": "1a67b279-44c7-42d6-b43f-630a4a05ebb8",
+        "email": "Kathryne35@hotmail.com",
+        "firstName": "Morton",
+        "lastName": "Schiller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1246.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bb2c917c-3f65-40d7-a254-2f061466bffa",
+        "email": "Rodger.McLaughlin39@yahoo.com",
+        "firstName": "Edgar",
+        "lastName": "Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4416274",
+        "tenantId": null
+      },
+      {
+        "reference": "0552b0a2-b53f-4f36-9179-ea38114ef8c8",
+        "email": "Verner64@yahoo.com",
+        "firstName": "Christy",
+        "lastName": "Jerde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3283766",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "19fbaf18-0fdb-4593-89c5-8f038ddf9e16",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": true,
+        "price_per_day": 2709,
+        "created_at": "2023-08-16T01:27:50.523Z",
+        "updated_at": "2023-08-16T08:13:55.067Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "371d454c-06ee-43fa-86b0-d4bcae3bff08",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 44053,
+        "created_at": "2023-08-15T11:33:44.618Z",
+        "updated_at": "2023-08-16T00:00:12.345Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "146aa289-2135-40b9-84b3-89b8538f90ad",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": false,
+        "price_per_day": 60386,
+        "created_at": "2023-08-15T19:39:28.291Z",
+        "updated_at": "2023-08-15T12:16:41.878Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d476114d-ffec-4398-b28a-486149c28248",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 42324,
+        "created_at": "2023-08-15T20:28:21.902Z",
+        "updated_at": "2023-08-15T14:20:41.184Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "92b5b081-fd13-4d23-9feb-ce76de1aeecb",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 27631,
+        "created_at": "2023-08-16T04:44:11.885Z",
+        "updated_at": "2023-08-15T18:45:23.667Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "67fa53c7-507a-4a73-b30b-e6ea7bc13608",
+        "start_date": "2023-08-15T22:28:49.322Z",
+        "end_date": "2023-08-15T23:32:29.335Z",
+        "total_price": 21038,
+        "created_at": "2023-08-15T14:15:29.077Z",
+        "updated_at": "2023-08-16T02:25:56.421Z",
+        "tool_id": "146aa289-2135-40b9-84b3-89b8538f90ad"
+      },
+      {
+        "id": "488b5e20-64ed-4b17-81ff-21e6911f91da",
+        "start_date": "2023-08-15T22:46:05.584Z",
+        "end_date": "2023-08-16T05:43:43.527Z",
+        "total_price": 52529,
+        "created_at": "2023-08-16T04:54:09.384Z",
+        "updated_at": "2023-08-15T10:37:13.150Z",
+        "tool_id": "19fbaf18-0fdb-4593-89c5-8f038ddf9e16"
+      },
+      {
+        "id": "97341920-7c4a-49bd-a9b1-081163a48121",
+        "start_date": "2023-08-15T15:40:35.081Z",
+        "end_date": "2023-08-15T12:35:17.763Z",
+        "total_price": 34990,
+        "created_at": "2023-08-15T19:15:56.282Z",
+        "updated_at": "2023-08-15T11:15:45.026Z",
+        "tool_id": "d476114d-ffec-4398-b28a-486149c28248"
+      },
+      {
+        "id": "d8911887-3b28-4cd6-a60d-f54876a35d34",
+        "start_date": "2023-08-16T07:21:11.912Z",
+        "end_date": "2023-08-15T13:17:46.104Z",
+        "total_price": 55745,
+        "created_at": "2023-08-15T16:02:38.546Z",
+        "updated_at": "2023-08-15T09:26:42.578Z",
+        "tool_id": "371d454c-06ee-43fa-86b0-d4bcae3bff08"
+      },
+      {
+        "id": "926860f8-4dd5-4e2d-b06c-dc1d0846d36f",
+        "start_date": "2023-08-16T03:35:54.666Z",
+        "end_date": "2023-08-16T03:35:35.752Z",
+        "total_price": 16883,
+        "created_at": "2023-08-15T15:48:28.126Z",
+        "updated_at": "2023-08-16T02:55:18.737Z",
+        "tool_id": "146aa289-2135-40b9-84b3-89b8538f90ad"
+      }
+    ],
+    "guest": [
+      {
+        "id": "715eadf3-c33f-43d9-a8f7-3f4e3f0b13a5",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-16T07:35:44.556Z",
+        "updated_at": "2023-08-16T02:03:46.393Z",
+        "rental_id": "488b5e20-64ed-4b17-81ff-21e6911f91da",
+        "user_id": "user_entity_pk",
+        "undefined": "d8911887-3b28-4cd6-a60d-f54876a35d34"
+      },
+      {
+        "id": "eee5a89f-8e1c-4551-b9df-04b570706217",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T21:31:02.304Z",
+        "updated_at": "2023-08-15T09:59:16.617Z",
+        "rental_id": "97341920-7c4a-49bd-a9b1-081163a48121",
+        "user_id": "user_entity_pk",
+        "undefined": "926860f8-4dd5-4e2d-b06c-dc1d0846d36f"
+      },
+      {
+        "id": "64afc62f-3eaf-466e-9489-9cee8f639cca",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-16T01:29:41.252Z",
+        "updated_at": "2023-08-15T09:31:20.372Z",
+        "rental_id": "488b5e20-64ed-4b17-81ff-21e6911f91da",
+        "user_id": "user_entity_pk",
+        "undefined": "d8911887-3b28-4cd6-a60d-f54876a35d34"
+      },
+      {
+        "id": "1a37950e-29e5-4a9e-90ae-cdf2ce1d1a08",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T18:47:07.414Z",
+        "updated_at": "2023-08-15T20:37:19.111Z",
+        "rental_id": "488b5e20-64ed-4b17-81ff-21e6911f91da",
+        "user_id": "user_entity_pk",
+        "undefined": "97341920-7c4a-49bd-a9b1-081163a48121"
+      },
+      {
+        "id": "d116297a-5260-4fc8-a40e-37fd179cc241",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-15T11:47:45.827Z",
+        "updated_at": "2023-08-15T16:06:51.597Z",
+        "rental_id": "488b5e20-64ed-4b17-81ff-21e6911f91da",
+        "user_id": "user_entity_pk",
+        "undefined": "488b5e20-64ed-4b17-81ff-21e6911f91da"
+      }
+    ],
+    "admin": [
+      {
+        "id": "484af667-54ad-4bef-bd6c-3ec892636e50",
+        "assigned_date": "2023-08-15T12:09:36.274Z",
+        "created_at": "2023-08-15T10:06:23.764Z",
+        "updated_at": "2023-08-15T15:25:44.052Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d1332d4-b178-4e2a-ae36-24607d9c7449",
+        "assigned_date": "2023-08-16T07:18:11.504Z",
+        "created_at": "2023-08-15T19:51:37.128Z",
+        "updated_at": "2023-08-15T20:17:49.604Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "48eaa6ee-743c-491e-85b4-557b463ceec6",
+        "assigned_date": "2023-08-16T04:29:03.007Z",
+        "created_at": "2023-08-15T11:58:08.207Z",
+        "updated_at": "2023-08-15T08:55:07.620Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f5a20da-41e7-495b-972d-9529a65f6d0d",
+        "assigned_date": "2023-08-15T16:18:50.742Z",
+        "created_at": "2023-08-15T20:49:57.335Z",
+        "updated_at": "2023-08-16T01:55:19.238Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4675503e-f8ea-4fae-a758-e955b8eb4245",
+        "assigned_date": "2023-08-15T12:08:15.157Z",
+        "created_at": "2023-08-16T03:27:45.396Z",
+        "updated_at": "2023-08-15T21:49:44.247Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ba8996ee-2677-4a91-b6eb-75828157dd59",
+        "email": "Domenico_OHara@gmail.com",
+        "firstName": "Muhammad",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/309.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7bc64012-2e1e-4fb8-a32e-da399672714f",
+        "email": "Garnet3@gmail.com",
+        "firstName": "Larry",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99927774",
+        "tenantId": null
+      },
+      {
+        "reference": "f33c0399-0337-44ec-9023-b48b3adb75a1",
+        "email": "Danial.Hane@hotmail.com",
+        "firstName": "Cleora",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/300.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e1cbd840-d7e6-4ab5-b656-b36d4e28dd66",
+        "email": "Emie.Franecki@hotmail.com",
+        "firstName": "Hulda",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/891.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "051ab829-1abd-48e0-9551-9df9e43e20e6",
+        "email": "Trinity.Gerhold32@hotmail.com",
+        "firstName": "Vito",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20320699",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "46bb8b83-6c08-4ab5-b50c-9c407c117bac",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 30875,
+        "created_at": "2023-08-15T16:46:40.237Z",
+        "updated_at": "2023-08-15T11:39:19.251Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e689d966-145f-416d-bd6b-f504d74e5a64",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 57116,
+        "created_at": "2023-08-15T20:15:31.430Z",
+        "updated_at": "2023-08-16T00:11:55.752Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0e7c0615-32bb-4e25-bdf7-51c1edc47f32",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 37890,
+        "created_at": "2023-08-15T14:06:57.070Z",
+        "updated_at": "2023-08-15T22:54:21.114Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8e8408e1-e850-4720-88ee-3adbe8183549",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 35167,
+        "created_at": "2023-08-15T17:24:47.830Z",
+        "updated_at": "2023-08-15T08:52:39.129Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd1d6557-4e49-4996-a280-4bc5c51a2771",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 36893,
+        "created_at": "2023-08-15T17:49:58.103Z",
+        "updated_at": "2023-08-15T18:14:26.829Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "91d8d445-5b3d-484e-b766-d6e9d99e49f2",
+        "start_date": "2023-08-15T23:40:39.245Z",
+        "end_date": "2023-08-15T18:10:04.967Z",
+        "total_price": 60510,
+        "created_at": "2023-08-15T17:25:45.613Z",
+        "updated_at": "2023-08-15T17:49:14.289Z",
+        "tool_id": "dd1d6557-4e49-4996-a280-4bc5c51a2771"
+      },
+      {
+        "id": "efd6e622-e19c-4079-9608-bce2313ded14",
+        "start_date": "2023-08-15T16:17:41.833Z",
+        "end_date": "2023-08-16T06:30:01.160Z",
+        "total_price": 2019,
+        "created_at": "2023-08-16T06:58:19.343Z",
+        "updated_at": "2023-08-16T06:49:12.647Z",
+        "tool_id": "46bb8b83-6c08-4ab5-b50c-9c407c117bac"
+      },
+      {
+        "id": "095b7434-1437-43b1-9236-5fc952dff16e",
+        "start_date": "2023-08-16T08:31:04.456Z",
+        "end_date": "2023-08-15T12:23:54.632Z",
+        "total_price": 54412,
+        "created_at": "2023-08-16T01:05:02.402Z",
+        "updated_at": "2023-08-16T02:35:24.325Z",
+        "tool_id": "8e8408e1-e850-4720-88ee-3adbe8183549"
+      },
+      {
+        "id": "a9360aee-cf50-41a5-8394-102dcee3b2b2",
+        "start_date": "2023-08-15T17:35:00.742Z",
+        "end_date": "2023-08-16T02:44:26.855Z",
+        "total_price": 60264,
+        "created_at": "2023-08-15T10:21:00.450Z",
+        "updated_at": "2023-08-15T18:40:03.366Z",
+        "tool_id": "e689d966-145f-416d-bd6b-f504d74e5a64"
+      },
+      {
+        "id": "51e91ad4-fdde-4f01-a50d-f81e9b76fee5",
+        "start_date": "2023-08-15T19:59:36.580Z",
+        "end_date": "2023-08-15T14:29:52.706Z",
+        "total_price": 73340,
+        "created_at": "2023-08-15T17:18:28.013Z",
+        "updated_at": "2023-08-15T19:30:24.329Z",
+        "tool_id": "e689d966-145f-416d-bd6b-f504d74e5a64"
+      }
+    ],
+    "guest": [
+      {
+        "id": "a968e4bd-3181-4685-8b1d-68dd39462a9b",
+        "phone_number": "555-123-4567",
+        "address": "123 Main Street",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-15T18:09:49.028Z",
+        "updated_at": "2023-08-16T07:25:54.147Z",
+        "rental_id": "095b7434-1437-43b1-9236-5fc952dff16e",
+        "user_id": "user_entity_pk",
+        "undefined": "095b7434-1437-43b1-9236-5fc952dff16e"
+      },
+      {
+        "id": "1e79a946-ac49-45c8-949e-14d70308778d",
+        "phone_number": "888-999-0000",
+        "address": "456 Elm Avenue",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T20:32:17.263Z",
+        "updated_at": "2023-08-16T00:38:56.756Z",
+        "rental_id": "91d8d445-5b3d-484e-b766-d6e9d99e49f2",
+        "user_id": "user_entity_pk",
+        "undefined": "51e91ad4-fdde-4f01-a50d-f81e9b76fee5"
+      },
+      {
+        "id": "8c20bd7d-e2a8-4b56-ae53-fe255d57497b",
+        "phone_number": "111-222-3333",
+        "address": "789 Oak Lane",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T11:19:01.976Z",
+        "updated_at": "2023-08-16T01:39:59.020Z",
+        "rental_id": "51e91ad4-fdde-4f01-a50d-f81e9b76fee5",
+        "user_id": "user_entity_pk",
+        "undefined": "efd6e622-e19c-4079-9608-bce2313ded14"
+      },
+      {
+        "id": "fe07011d-1e36-40ca-987c-1bdf2bf3cb13",
+        "phone_number": "123-456-7890",
+        "address": "321 Pine Road",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T19:19:19.659Z",
+        "updated_at": "2023-08-15T13:44:57.586Z",
+        "rental_id": "51e91ad4-fdde-4f01-a50d-f81e9b76fee5",
+        "user_id": "user_entity_pk",
+        "undefined": "51e91ad4-fdde-4f01-a50d-f81e9b76fee5"
+      },
+      {
+        "id": "1e137e0d-d89b-4478-88b2-8e473cecfe50",
+        "phone_number": "987-654-3210",
+        "address": "654 Maple Drive",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-15T17:41:57.061Z",
+        "updated_at": "2023-08-15T22:11:56.331Z",
+        "rental_id": "91d8d445-5b3d-484e-b766-d6e9d99e49f2",
+        "user_id": "user_entity_pk",
+        "undefined": "a9360aee-cf50-41a5-8394-102dcee3b2b2"
+      }
+    ],
+    "admin": [
+      {
+        "id": "c262a040-1024-4b2b-9d2a-d34f6691314a",
+        "assigned_date": "2023-08-15T16:27:33.557Z",
+        "created_at": "2023-08-15T13:22:58.593Z",
+        "updated_at": "2023-08-16T03:49:55.474Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "438fee25-6c10-473d-9191-ac041644ace2",
+        "assigned_date": "2023-08-15T12:16:33.993Z",
+        "created_at": "2023-08-15T17:53:49.742Z",
+        "updated_at": "2023-08-15T13:23:02.399Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1059194-0bf9-4fce-8121-d1b12be8999d",
+        "assigned_date": "2023-08-16T07:12:28.324Z",
+        "created_at": "2023-08-15T09:47:19.066Z",
+        "updated_at": "2023-08-16T00:57:46.575Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "668c8f10-e739-481b-9043-bc8ba7b40122",
+        "assigned_date": "2023-08-15T16:12:02.154Z",
+        "created_at": "2023-08-15T16:12:22.923Z",
+        "updated_at": "2023-08-16T00:49:53.764Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df62dda5-37cd-4ae0-b78e-8a12179899cf",
+        "assigned_date": "2023-08-15T19:06:22.443Z",
+        "created_at": "2023-08-16T00:19:05.585Z",
+        "updated_at": "2023-08-15T11:00:03.523Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bbf7ce7a-03bc-4a6f-b13c-89a763934424",
+        "email": "Lemuel.Gusikowski@yahoo.com",
+        "firstName": "Bertram",
+        "lastName": "Hammes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68751118",
+        "tenantId": null
+      },
+      {
+        "reference": "9234e0fb-87d1-41a6-910d-32fc18e6246a",
+        "email": "Trycia_Flatley@gmail.com",
+        "firstName": "Tierra",
+        "lastName": "Johnson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30961428",
+        "tenantId": null
+      },
+      {
+        "reference": "868fb09d-5469-43dd-87c7-5bce6c0b9a12",
+        "email": "Hilario.Pagac-Collier@gmail.com",
+        "firstName": "Kathlyn",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46644497",
+        "tenantId": null
+      },
+      {
+        "reference": "4199e751-0049-450e-b1b9-5fc9a557de31",
+        "email": "Antone.Daniel@gmail.com",
+        "firstName": "Milford",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52234677",
+        "tenantId": null
+      },
+      {
+        "reference": "2eb92f64-8b77-4a86-a7eb-2c1b6e085a51",
+        "email": "Joesph.Pollich@gmail.com",
+        "firstName": "Jamison",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48187432",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "308d7055-46a4-4c87-9f48-ae4fc3a747ea",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": true,
+        "price_per_day": 36109,
+        "created_at": "2023-08-15T16:34:15.775Z",
+        "updated_at": "2023-08-15T17:04:11.303Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "598e5b22-2034-4b5d-b71f-06ca10b3f6a1",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": false,
+        "price_per_day": 92301,
+        "created_at": "2023-08-15T12:54:47.145Z",
+        "updated_at": "2023-08-15T19:00:53.710Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "860fa65c-5ee3-4a33-b6d1-87b00641b2e1",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": false,
+        "price_per_day": 28598,
+        "created_at": "2023-08-15T21:46:27.524Z",
+        "updated_at": "2023-08-16T01:44:20.809Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7723b704-66fb-4738-aa68-bb92369310c3",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 40314,
+        "created_at": "2023-08-15T11:47:23.818Z",
+        "updated_at": "2023-08-15T18:05:36.078Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "45ae7317-1667-4e6a-8f29-fbba4f6a8fda",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": true,
+        "price_per_day": 85443,
+        "created_at": "2023-08-16T02:13:54.092Z",
+        "updated_at": "2023-08-16T07:30:28.108Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "f487ff13-ee47-4024-9d32-6dff38992b0a",
+        "start_date": "2023-08-15T21:33:33.638Z",
+        "end_date": "2023-08-15T10:57:02.184Z",
+        "total_price": 8713,
+        "created_at": "2023-08-16T04:11:13.621Z",
+        "updated_at": "2023-08-15T09:43:03.223Z",
+        "tool_id": "598e5b22-2034-4b5d-b71f-06ca10b3f6a1"
+      },
+      {
+        "id": "5c2eda3a-05c1-4205-b15f-1190a4f8ca29",
+        "start_date": "2023-08-15T22:40:38.436Z",
+        "end_date": "2023-08-15T14:54:49.700Z",
+        "total_price": 23985,
+        "created_at": "2023-08-15T11:33:27.609Z",
+        "updated_at": "2023-08-15T23:58:04.065Z",
+        "tool_id": "7723b704-66fb-4738-aa68-bb92369310c3"
+      },
+      {
+        "id": "f3778ed9-86f6-4f4e-a082-7112a2e7adbc",
+        "start_date": "2023-08-16T02:39:56.679Z",
+        "end_date": "2023-08-15T21:10:47.802Z",
+        "total_price": 42664,
+        "created_at": "2023-08-16T07:15:41.862Z",
+        "updated_at": "2023-08-16T07:01:39.797Z",
+        "tool_id": "45ae7317-1667-4e6a-8f29-fbba4f6a8fda"
+      },
+      {
+        "id": "3b98ee7b-0149-48cd-990c-301336cae7b4",
+        "start_date": "2023-08-15T23:27:00.048Z",
+        "end_date": "2023-08-15T20:19:18.054Z",
+        "total_price": 20755,
+        "created_at": "2023-08-15T13:51:49.746Z",
+        "updated_at": "2023-08-16T04:29:08.916Z",
+        "tool_id": "308d7055-46a4-4c87-9f48-ae4fc3a747ea"
+      },
+      {
+        "id": "f676981e-1963-4b7e-b81b-cc0053474201",
+        "start_date": "2023-08-15T12:07:26.124Z",
+        "end_date": "2023-08-15T22:01:33.043Z",
+        "total_price": 67590,
+        "created_at": "2023-08-16T00:40:00.434Z",
+        "updated_at": "2023-08-16T06:29:31.001Z",
+        "tool_id": "860fa65c-5ee3-4a33-b6d1-87b00641b2e1"
+      }
+    ],
+    "guest": [
+      {
+        "id": "9f2fb15b-180d-4ba2-8403-fdbf44f50cf3",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-15T17:49:57.898Z",
+        "updated_at": "2023-08-15T16:00:05.418Z",
+        "rental_id": "f487ff13-ee47-4024-9d32-6dff38992b0a",
+        "user_id": "user_entity_pk",
+        "undefined": "f676981e-1963-4b7e-b81b-cc0053474201"
+      },
+      {
+        "id": "dd0e72d8-0e9f-4cda-8752-57156c4064de",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-15T19:58:06.509Z",
+        "updated_at": "2023-08-15T12:23:25.148Z",
+        "rental_id": "f3778ed9-86f6-4f4e-a082-7112a2e7adbc",
+        "user_id": "user_entity_pk",
+        "undefined": "f3778ed9-86f6-4f4e-a082-7112a2e7adbc"
+      },
+      {
+        "id": "4cc0b642-ea05-49eb-91d1-c348abf9bb63",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T09:40:33.679Z",
+        "updated_at": "2023-08-15T20:10:24.581Z",
+        "rental_id": "5c2eda3a-05c1-4205-b15f-1190a4f8ca29",
+        "user_id": "user_entity_pk",
+        "undefined": "5c2eda3a-05c1-4205-b15f-1190a4f8ca29"
+      },
+      {
+        "id": "32bd2697-836b-4979-9f65-d91cc5666ba7",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-16T08:17:06.023Z",
+        "updated_at": "2023-08-15T15:39:10.567Z",
+        "rental_id": "f3778ed9-86f6-4f4e-a082-7112a2e7adbc",
+        "user_id": "user_entity_pk",
+        "undefined": "f3778ed9-86f6-4f4e-a082-7112a2e7adbc"
+      },
+      {
+        "id": "0e70c194-a9f8-448b-b4c6-9df0bdcce1af",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-15T15:46:04.570Z",
+        "updated_at": "2023-08-16T04:20:59.706Z",
+        "rental_id": "f676981e-1963-4b7e-b81b-cc0053474201",
+        "user_id": "user_entity_pk",
+        "undefined": "f676981e-1963-4b7e-b81b-cc0053474201"
+      }
+    ],
+    "admin": [
+      {
+        "id": "c5cf24ca-72fd-4bff-886d-c769e34304ed",
+        "assigned_date": "2023-08-15T23:55:24.025Z",
+        "created_at": "2023-08-16T02:19:12.050Z",
+        "updated_at": "2023-08-15T17:37:44.240Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d13f44b3-a31d-4086-9277-068aaa9fd789",
+        "assigned_date": "2023-08-16T03:14:32.243Z",
+        "created_at": "2023-08-16T01:41:42.484Z",
+        "updated_at": "2023-08-15T22:48:06.835Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e43eb5fc-af07-4182-a296-2ffd9820129c",
+        "assigned_date": "2023-08-16T06:41:49.729Z",
+        "created_at": "2023-08-16T01:04:28.634Z",
+        "updated_at": "2023-08-15T19:14:23.328Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53ca3f98-8933-46bb-98fc-c61ac0efd998",
+        "assigned_date": "2023-08-15T09:06:47.184Z",
+        "created_at": "2023-08-16T08:33:04.803Z",
+        "updated_at": "2023-08-15T13:50:28.565Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d45cd739-105a-4b91-bc7a-9fd0813b1c91",
+        "assigned_date": "2023-08-16T03:12:03.517Z",
+        "created_at": "2023-08-15T20:59:07.317Z",
+        "updated_at": "2023-08-15T16:11:02.744Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "111dbddb-41fa-46e5-9bc2-67e237f88612",
+        "email": "Lloyd_Leffler@hotmail.com",
+        "firstName": "Evan",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96575162",
+        "tenantId": null
+      },
+      {
+        "reference": "e68c905e-d62d-444f-9d37-4c016d271abf",
+        "email": "Shaina50@gmail.com",
+        "firstName": "Ramiro",
+        "lastName": "Stoltenberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/516.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eeabeae7-ffdb-435c-b840-b0497f92657e",
+        "email": "Cesar.Konopelski@yahoo.com",
+        "firstName": "Mathilde",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/397.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "37bb5054-3491-4519-bd2f-b1b223cb17f3",
+        "email": "Dorcas.Doyle@yahoo.com",
+        "firstName": "Tatum",
+        "lastName": "Rath",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16721717",
+        "tenantId": null
+      },
+      {
+        "reference": "1a27b7cd-bd1c-48e3-9a3c-88c1d09ff4ee",
+        "email": "Sierra_VonRueden@hotmail.com",
+        "firstName": "Hardy",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "tool": [
+      {
+        "id": "df71b5e2-8cfe-41af-994b-cee1dae33b08",
+        "name": "Tool 1",
+        "description": "A powerful tool for data analysis",
+        "availability": false,
+        "price_per_day": 17988,
+        "created_at": "2023-08-15T17:17:20.083Z",
+        "updated_at": "2023-08-15T18:37:57.898Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96e38f75-04e1-4f6a-a4d7-ed704624b30e",
+        "name": "Tool 2",
+        "description": "An intuitive tool for project management",
+        "availability": true,
+        "price_per_day": 47382,
+        "created_at": "2023-08-15T18:44:49.973Z",
+        "updated_at": "2023-08-16T07:25:34.564Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a27a23cb-6e98-4dc2-b3d0-348ee6ce6bb6",
+        "name": "Tool 3",
+        "description": "A versatile tool for collaboration",
+        "availability": true,
+        "price_per_day": 69047,
+        "created_at": "2023-08-15T14:30:01.954Z",
+        "updated_at": "2023-08-15T14:54:50.631Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "106e0e30-73bd-421a-a762-9fb469fcfb95",
+        "name": "Tool 4",
+        "description": "A reliable tool for task automation",
+        "availability": false,
+        "price_per_day": 92036,
+        "created_at": "2023-08-15T22:39:57.667Z",
+        "updated_at": "2023-08-15T12:41:54.113Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6fcd7324-2288-48a3-ac52-fe088f0d40de",
+        "name": "Tool 5",
+        "description": "An efficient tool for code debugging",
+        "availability": false,
+        "price_per_day": 15436,
+        "created_at": "2023-08-16T03:45:56.351Z",
+        "updated_at": "2023-08-15T21:20:57.758Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "bda8e736-7271-498d-86fb-e6a92a0d4ddf",
+        "start_date": "2023-08-15T17:35:18.047Z",
+        "end_date": "2023-08-16T02:52:54.676Z",
+        "total_price": 88844,
+        "created_at": "2023-08-15T17:32:33.822Z",
+        "updated_at": "2023-08-15T22:09:56.832Z",
+        "tool_id": "6fcd7324-2288-48a3-ac52-fe088f0d40de"
+      },
+      {
+        "id": "a63c8ec0-ab95-4cc8-a0d7-17edac384dd2",
+        "start_date": "2023-08-15T10:19:33.353Z",
+        "end_date": "2023-08-15T19:54:46.738Z",
+        "total_price": 13052,
+        "created_at": "2023-08-15T12:12:36.489Z",
+        "updated_at": "2023-08-16T03:29:27.390Z",
+        "tool_id": "96e38f75-04e1-4f6a-a4d7-ed704624b30e"
+      },
+      {
+        "id": "e3f388d8-ecab-4c28-b817-1ea47569c431",
+        "start_date": "2023-08-15T15:54:12.810Z",
+        "end_date": "2023-08-15T12:03:40.577Z",
+        "total_price": 3238,
+        "created_at": "2023-08-15T14:48:57.713Z",
+        "updated_at": "2023-08-16T02:15:49.611Z",
+        "tool_id": "6fcd7324-2288-48a3-ac52-fe088f0d40de"
+      },
+      {
+        "id": "44f2507c-b7f3-49b4-8a13-17ccc66b16db",
+        "start_date": "2023-08-15T11:10:53.832Z",
+        "end_date": "2023-08-15T23:54:05.565Z",
+        "total_price": 16359,
+        "created_at": "2023-08-16T03:26:13.700Z",
+        "updated_at": "2023-08-16T01:31:14.201Z",
+        "tool_id": "106e0e30-73bd-421a-a762-9fb469fcfb95"
+      },
+      {
+        "id": "e5390242-4665-4895-b023-c7d6bc01314f",
+        "start_date": "2023-08-15T16:05:47.966Z",
+        "end_date": "2023-08-16T04:16:24.050Z",
+        "total_price": 73281,
+        "created_at": "2023-08-15T11:48:26.809Z",
+        "updated_at": "2023-08-16T01:14:33.453Z",
+        "tool_id": "106e0e30-73bd-421a-a762-9fb469fcfb95"
+      }
+    ],
+    "guest": [
+      {
+        "id": "8e7093b5-d53d-477d-aa9f-a7c3bfdbb0e1",
+        "phone_number": "555-123-4567",
+        "address": "789 Oak Lane",
+        "email": "guest1@example.com",
+        "created_at": "2023-08-15T19:48:42.119Z",
+        "updated_at": "2023-08-16T03:08:17.023Z",
+        "rental_id": "e5390242-4665-4895-b023-c7d6bc01314f",
+        "user_id": "user_entity_pk",
+        "undefined": "e5390242-4665-4895-b023-c7d6bc01314f"
+      },
+      {
+        "id": "6526ca00-a698-436b-bfb8-8f718b0923d2",
+        "phone_number": "888-999-0000",
+        "address": "321 Pine Road",
+        "email": "guest2@example.com",
+        "created_at": "2023-08-16T02:59:51.467Z",
+        "updated_at": "2023-08-15T09:01:44.405Z",
+        "rental_id": "e5390242-4665-4895-b023-c7d6bc01314f",
+        "user_id": "user_entity_pk",
+        "undefined": "e5390242-4665-4895-b023-c7d6bc01314f"
+      },
+      {
+        "id": "30745b8f-5dcf-4e49-8b3c-aa3e252b340d",
+        "phone_number": "111-222-3333",
+        "address": "654 Maple Drive",
+        "email": "guest3@example.com",
+        "created_at": "2023-08-15T22:23:07.151Z",
+        "updated_at": "2023-08-16T01:25:23.442Z",
+        "rental_id": "bda8e736-7271-498d-86fb-e6a92a0d4ddf",
+        "user_id": "user_entity_pk",
+        "undefined": "e5390242-4665-4895-b023-c7d6bc01314f"
+      },
+      {
+        "id": "37e84e0e-6b4d-4f27-88c9-56c995f02c20",
+        "phone_number": "123-456-7890",
+        "address": "123 Main Street",
+        "email": "guest4@example.com",
+        "created_at": "2023-08-15T13:49:21.933Z",
+        "updated_at": "2023-08-16T08:03:48.606Z",
+        "rental_id": "a63c8ec0-ab95-4cc8-a0d7-17edac384dd2",
+        "user_id": "user_entity_pk",
+        "undefined": "e3f388d8-ecab-4c28-b817-1ea47569c431"
+      },
+      {
+        "id": "85627dd3-8efe-4027-9012-87a268a0f177",
+        "phone_number": "987-654-3210",
+        "address": "456 Elm Avenue",
+        "email": "guest5@example.com",
+        "created_at": "2023-08-16T01:49:52.612Z",
+        "updated_at": "2023-08-16T05:15:58.745Z",
+        "rental_id": "44f2507c-b7f3-49b4-8a13-17ccc66b16db",
+        "user_id": "user_entity_pk",
+        "undefined": "bda8e736-7271-498d-86fb-e6a92a0d4ddf"
+      }
+    ],
+    "admin": [
+      {
+        "id": "63c8bf34-a6fe-432c-ba99-406cd7abcbd6",
+        "assigned_date": "2023-08-15T13:43:25.654Z",
+        "created_at": "2023-08-16T07:35:49.947Z",
+        "updated_at": "2023-08-15T15:05:22.836Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43631ab7-6b07-4fbf-965d-5b542c90b445",
+        "assigned_date": "2023-08-15T22:20:34.306Z",
+        "created_at": "2023-08-15T12:19:26.932Z",
+        "updated_at": "2023-08-16T05:16:40.239Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c562bf5-369a-4702-819d-c4379b4225bf",
+        "assigned_date": "2023-08-15T18:34:13.791Z",
+        "created_at": "2023-08-16T06:53:23.124Z",
+        "updated_at": "2023-08-15T11:30:12.949Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1e7a417-6ff1-4f24-b7dc-2410f871c3f9",
+        "assigned_date": "2023-08-16T01:00:24.404Z",
+        "created_at": "2023-08-16T00:01:21.784Z",
+        "updated_at": "2023-08-15T18:58:21.082Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c9235111-0752-43b2-ac26-7cb8c5b93c68",
+        "assigned_date": "2023-08-16T04:45:18.040Z",
+        "created_at": "2023-08-16T04:02:36.148Z",
+        "updated_at": "2023-08-15T10:18:38.744Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8671d5ec-a057-4bfd-afce-6010a511b5f2",
+        "email": "Elisabeth_Hilpert70@hotmail.com",
+        "firstName": "Makayla",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/511.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "53dd4102-d16c-423a-b57c-beb4bd242b72",
+        "email": "Cesar50@yahoo.com",
+        "firstName": "Jacques",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a191d03f-b473-4aee-a1bd-117655f57522",
+        "email": "Heber.Tillman40@yahoo.com",
+        "firstName": "Paris",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/245.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "349d390b-48be-4ccc-8fa0-2cdf7b1e134b",
+        "email": "Isabell.Renner@gmail.com",
+        "firstName": "Darrion",
+        "lastName": "Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/789.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a461ff1-cbf0-463f-9aaa-29f32d5601d4",
+        "email": "Trever.Nader87@yahoo.com",
+        "firstName": "Forrest",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/249.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
